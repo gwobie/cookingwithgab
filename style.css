@@ -18,7 +18,8 @@
 }
 
         .table-container {
-            width: 90%; <!-- the table container helps wrap and control the layout to organise how it is being displayed --> 
+            width: 90%;/* the table container helps wrap and control the layout to organise how it is being displayed  */
+
             max-width: 100px;
             background-color: transparent; /* Slight white tint for legibility */
             margin-top: 10px; /* Moves the table lower from the top */
