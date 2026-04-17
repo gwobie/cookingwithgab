@@ -11,7 +11,7 @@
             flex-direction: column;
             align-items: center;
         }
-         /* Overrides pages for1  page only */
+         /* Overrides pages for a couple of page only so its a different background than Index */
    body.custom-bg {
     background: url('images/backgroundmodifiedrecipes.png') no-repeat center center fixed;
     background-size: cover;
@@ -21,9 +21,9 @@
             width: 90%;/* the table container helps wrap and control the layout to organise how it is being displayed  */
 
             max-width: 100px;
-            background-color: transparent; /* Slight white tint for legibility */
-            margin-top: 10px; /* Moves the table lower from the top */
-            margin-left: 525px;  /* Centers  the table horizontally */
+            background-color: transparent; /* wanted it to be transparent */
+            margin-top: 10px; /* I needed to move the table lower */
+            margin-left: 525px;  
             margin-right: auto;
          }
     table {
@@ -33,50 +33,50 @@
 
 td {
     padding: 20px;
-    border-bottom: 1px solid #ccc; /* Adds a nice separator between recipes */
+    border-bottom: 1px solid #ccc; /* Wanted space between my recipie, it will look nicer */
 }
        h1 {
-            font-family: Arial, Helvetica, sans-serif; /* Change font */
-            font-size: 60px;                          /* Set text size */
-            color: #2c3e50;                           /* Text color */
-            text-align: center;                       /* Center align text */
-            font-weight: bold;                        /* Make text bold */
-            margin-top: 20px;                         /* Space above */
-            margin-bottom: 0px;                      /* Space below */
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 60px;                          
+            color: #2c3e50;                           
+            text-align: center;                       /* Centered my text, looks nicer */
+            font-weight: bold;                        /* I wanted my text to be bold, its easier to read */
+            margin-top: 20px;                         
+            margin-bottom: 0px;                      
         }
        h2 {
-            font-family: Arial, Helvetica, sans-serif; /* Change font */
-            font-size: 20px;                          /* Set text size */
-            color: #2c3e50;                           /* Text color */
-            font-weight: bold;                        /* Make text bold */
-            margin-top: 20px;                         /* Space above */
-            margin-bottom: 0px;                      /* Space below */
+            font-family: Arial, Helvetica, sans-serif; /* Used only one font I thought it looked nicer and more uniform */
+            font-size: 20px;                          
+            color: #2c3e50;                           
+            font-weight: bold;                       
+            margin-top: 20px;                         
+            margin-bottom: 0px;                      
 	   
         }
 
 	 h3 {
-            font-family: Arial, Helvetica, sans-serif; /* Change font for a different header */
-            font-size: 15px;                          /* Set text size */
-            color: #2c3e50;                           /* Text color */
-            text-align: left;                       /* left align text */
-            font-weight: bold;                        /* Make text bold */
-            margin-top: 0px;                         /* Space above */
-            margin-bottom: 5px;                      /* Space below */
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 15px;                          
+            color: #2c3e50;                           
+            text-align: left;                       
+            font-weight: bold;                        
+            margin-top: 0px;                         
+            margin-bottom: 5px;                      
         }
 
 h4 {
-            font-family: Arial, Helvetica, sans-serif; /* Change font */
-            font-size: 15px;                          /* Set text size */
-            color: #2c3e50;                           /* Text color */
-            font-weight: bold; text-align: right;                       /* Make text bold */
-            margin-top: 20px;                         /* Space above */
-            margin-bottom: 0px;                      /* Space below */
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 15px;                          
+            color: #2c3e50;                           
+            font-weight: bold; text-align: right;                       
+            margin-top: 20px;                         
+            margin-bottom: 0px;                      
 	    
 }
 	p {
- 	   max-width: 100ch;       /* Limit to about 100 characters per line */
-  	   word-wrap: break-word; /* Break long words if needed */
-  	   line-height: 1.5;      /* Improve readability by spacing line height */
+ 	   max-width: 100ch;       /* I wanted the lines to only have 100 characters */
+  	   word-wrap: break-word; 
+  	   line-height: 1.5;      /* more space between lines*/
 	} 
 	  
         table {
